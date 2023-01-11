@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, #ffecb3, #fb8c00);
+}
+
+header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  background: #ffa040;
+  padding: 1rem;
+}
+
+
+.complete-btn {
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.trash-btn {
+  color: #fff;
+  background-color: #ff6f00;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
